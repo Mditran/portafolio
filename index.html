@@ -5,8 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-    
+
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/header/header.css">
+    <link rel="stylesheet" href="/assets/css/home/home.css">
+    <link rel="stylesheet" href="/assets/css/about/about.css">
+    <link rel="stylesheet" href="/assets/css/hobbies/hobbies.css">
+    <link rel="stylesheet" href="/assets/css/services/services.css">
+    <link rel="stylesheet" href="/assets/css/portafolio/portafolio.css">
+    <link rel="stylesheet" href="/assets/css/contact/contact.css">
+    <link rel="stylesheet" href="/assets/css/footer/footer.css">
     <title>Portafolio</title>
 </head>
 <body>
@@ -18,7 +26,7 @@
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
-            <a href="#services">Services</a>
+            <a href="#hobbies">Hobbies</a>
             <a href="#portafolio">Portafolio</a>
             <a href="#contact">Contact</a>
         </nav>
@@ -26,9 +34,9 @@
     <section class="home" id="home">
         <div class="home-content">
             <h3>Hola, soy</h3>
-            <h1>Michael Diaz</h1>
-            <h3>Y soy estudiante de <span>Ingenieria de Sistemas</span> como tambien un <span>Desarrollador Frontend</span></h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae expedita, velit nostrum quibusdam commodi maiores, eius repellendus voluptatum non cupiditate reprehenderit eligendi earum adipisci deleniti reiciendis rerum nisi hic quae!</p>
+            <h1>Michael Diaz,</h1>
+            <h3> <span class="multiple-text"></span></h3>
+            <p>En mis tiempos libres me gusta crear proyectos enfocado en lo visual, me gustan los juegos de mundo abierto o que tengan buena historia, me gustaria volver a mis viejos hobbies que eran tennis y escribir poesia, he tenido problemas de inspiracion y este año encontrare un empleo ya sea de FullStack o Frontend</p>
             <div class="social-media">
                 <a href=""><i class="bx bxl-facebook"></i></a>
                 <a href=""><i class="bx bxl-twitter"></i></a>
@@ -49,93 +57,106 @@
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
             <h3>Desarrollador Frontend</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam rerum ea, ducimus odit, magni eveniet laudantium modi nemo delectus officia quo architecto aperiam culpa quisquam cumque accusamus voluptas possimus praesentium.</p>
+            <p>Naci el 24 de noviembre de 1997 en la ciudad de Popayan - Cauca</p>
             <a href="#" class="btn">Read more</a>
         </div>
     </section>
 
-    <section class="services" id="services">
-        <h2 class="heading">Mis <span>Servicios</span></h2>
-        <div class="services-container">
-            <div class="services-box">
-                <i class="bx bx-code-alt"></i>
-                <h3>Desarrollo Web</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid corrupti corporis, tempore alias esse recusandae eveniet cumque itaque ad iure enim incidunt ea porro asperiores autem. Quod natus consequatur beatae.</p>
-                <a href="#" class="btn">Read More</a>
+    <section class="hobbies" id="hobbies">
+        <h2 class="heading">Mis <span>Hobbies</span></h2>
+        <div class="carousel center-align">
+            <div class="carousel-item">
+                <h3 class="titulo">Reading</h3>
+                <img src="/assets/img/hobbie1.jpg" alt="">
             </div>
 
-            <div class="services-box">
-                <i class="bx bx-code-alt"></i>
-                <h3>Desarrollo de software</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid corrupti corporis, tempore alias esse recusandae eveniet cumque itaque ad iure enim incidunt ea porro asperiores autem. Quod natus consequatur beatae.</p>
-                <a href="#" class="btn">Read More</a>
+            <div class="carousel-item">
+                <h3 class="titulo">Biking</h3>          
+                <img src="/assets/img/hobbie2.jpg" width="400" alt="">
             </div>
-
-            <div class="services-box">
-                <i class="bx bx-code-alt"></i>
-                <h3>Base de datos</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid corrupti corporis, tempore alias esse recusandae eveniet cumque itaque ad iure enim incidunt ea porro asperiores autem. Quod natus consequatur beatae.</p>
-                <a href="#" class="btn">Read More</a>
+            
+            <div class="carousel-item">
+                <h3 class="titulo">Poetry</h3>          
+                <img src="/assets/img/hobbie3.jpg" width="400" alt="">
+            </div>
+            
+            <div class="carousel-item">
+                <h3 class="titulo">Horizon Zero Down</h3>          
+                <img src="/assets/img/hobbie4.jpg" width="400" alt="">
+            </div>
+            
+            <div class="carousel-item">
+                <h3 class="titulo">Majora's Mask</h3>          
+                <img src="/assets/img/hobbie5.jpg" width="400" alt="">
+            </div>
+            
+            <div class="carousel-item">
+                <h3 class="titulo">Eternum</h3>          
+                <img src="/assets/img/hobbie6.jpg" width="400" alt="">
+            </div>
+            <div class="carousel-item">
+                <h3 class="titulo">Once In a Life Time</h3>          
+                <img src="/assets/img/hobbie7.jpg" width="400" alt="">
             </div>
         </div>
     </section>
     <section class="portafolio" id="portafolio">
         <h2 class="heading">Ultimos <span>Proyectos</span></h2>
-        <div class="portafolio-container">
-            <div class="portafolio-box">
-                <img src="/assets/img/portafolio4.png" alt="">
+        <ul class="portafolio-container">
+            <li class="portafolio-box">
+                <img src="/assets/img/games.jpg" alt="">
                 <div class="portafolio-layer">
-                    <h4>Web design</h4>
+                    <h4>TODO List</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, eum sequi quidem excepturi</p>
-                    <a href="#"><i class="bx bx-link-external"></i></a>
+                    <a href="https://github.com/Mditran/todo-app"><i class="bx bx-link-external"></i></a>
                 </div>
-            </div>
+            </li>
 
-            <div class="portafolio-box">
-                <img src="/assets/img/portafolio4.png" alt="">
+            <li class="portafolio-box">
+                <img src="/assets/img/games.jpg" alt="">
                 <div class="portafolio-layer">
-                    <h4>Web design</h4>
+                    <h4>Pokedex</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, eum sequi quidem excepturi</p>
-                    <a href="#"><i class="bx bx-link-external"></i></a>
+                    <a href="https://github.com/Mditran/pokedex"><i class="bx bx-link-external"></i></a>
                 </div>
-            </div>
+            </li>
 
-            <div class="portafolio-box">
-                <img src="/assets/img/portafolio4.png" alt="">
+            <li class="portafolio-box">
+                <img src="/assets/img/games.jpg" alt="">
                 <div class="portafolio-layer">
-                    <h4>Web design</h4>
+                    <h4>Landing Page Barberia</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, eum sequi quidem excepturi</p>
-                    <a href="#"><i class="bx bx-link-external"></i></a>
+                    <a href="https://github.com/Mditran/landing-page-barberia"><i class="bx bx-link-external"></i></a>
                 </div>
-            </div>
+            </li>
 
-            <div class="portafolio-box">
-                <img src="/assets/img/portafolio4.png" alt="">
+            <li class="portafolio-box">
+                <img src="/assets/img/games.jpg" alt="">
                 <div class="portafolio-layer">
-                    <h4>Web design</h4>
+                    <h4>Landing Page Vacunacion</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, eum sequi quidem excepturi</p>
-                    <a href="#"><i class="bx bx-link-external"></i></a>
+                    <a href="https://github.com/Mditran/landing-vacunacion"><i class="bx bx-link-external"></i></a>
                 </div>
-            </div>
+            </li>
 
-            <div class="portafolio-box">
-                <img src="/assets/img/portafolio4.png" alt="">
+            <li class="portafolio-box">
+                <img src="/assets/img/games.jpg" alt="">
                 <div class="portafolio-layer">
-                    <h4>Web design</h4>
+                    <h4>UniCoin</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, eum sequi quidem excepturi</p>
-                    <a href="#"><i class="bx bx-link-external"></i></a>
+                    <a href="https://github.com/Mditran/UniCoin"><i class="bx bx-link-external"></i></a>
                 </div>
-            </div>
+            </li>
 
-            <div class="portafolio-box">
-                <img src="/assets/img/portafolio4.png" alt="">
+            <li class="portafolio-box">
+                <img src="/assets/img/games.jpg" alt="">
                 <div class="portafolio-layer">
-                    <h4>Web design</h4>
+                    <h4>APP Amarre</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, eum sequi quidem excepturi</p>
-                    <a href="#"><i class="bx bx-link-external"></i></a>
+                    <a href="https://github.com/Mditran/appAmarre"><i class="bx bx-link-external"></i></a>
                 </div>
-            </div>
-        </div>
+            </li>
+        </ul>
     </section>
 
     <section class="contact" id="contact">
@@ -165,6 +186,9 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="scripts/script.js"></script>
     <script src="scripts/validation.js"></script>
 </body>
