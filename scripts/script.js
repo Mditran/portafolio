@@ -50,7 +50,7 @@ ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right', delay
 
 /* ============================ scroll reveal ============================ */
 const typed = new Typed('.multiple-text', {
-    strings: ['Desarrollador Web', 'Estudiante de Ingenieria de Sistemas'],
+    strings: ['Web Developer', 'Systems Engineer'],
     typeSpeed: 100,
     backspeed: 100,
     backDelay: 1000,
