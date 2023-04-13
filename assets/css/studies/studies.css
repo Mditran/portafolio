@@ -75,3 +75,15 @@
 	top: 0;
 	width: 100%;
 }
+
+@media (max-width: 526px) {
+    .studies {
+		font-size: 1.8rem;
+	}
+	.studies p{
+		font-size: 1.8rem;
+		color: var(--main-color);
+		margin-top: 5rem;
+		margin-bottom: 2rem;
+	}
+}
